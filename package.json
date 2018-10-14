@@ -1,0 +1,17 @@
+{
+    "name": "module-structure-lang-cpp",
+    "version": "1.0.0",
+    "description": "A C++ language extention for the module-structure program",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "linternator",
+    "license": "ISC",
+    "extensions": {
+        "module-structure:language": {
+            "h": "./src/module-structure-lang-cpp.js",
+            "cpp": "./src/module-structure-lang-cpp.js"
+        }
+    }
+}
